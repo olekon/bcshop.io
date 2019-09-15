@@ -10,7 +10,7 @@ Standard **truffle** folder structure.
 - **contracts\common** - general purpose smart contracts.
 
 # Contracts details
-This figure shows contracts' relation. Light rectangles are interfaces, dark ones are implementations.  
+This figure shows contracts' relation. Light rectangles are interfaces, dark ones are their implementations.  
 
 ![Contracts relations](https://i.imgur.com/cDT234j.png)
 - **ProductStorage** - Storage of products (and services) data. Contains restricted access functions for manipulating the storage. **IProductStorage** - interface of storage functions.
